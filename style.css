@@ -94,53 +94,6 @@ nav ul li a:hover {
     letter-spacing: 2px;
 }
 
-/* BUTTON STYLES */
-button {
-    background: var(--text-gold);
-    color: var(--black);
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    transition: all 0.3s ease-in-out;
-}
-
-button:hover {
-    background: var(--white);
-    color: var(--primary-color);
-    transform: scale(1.1);
-}
-
-/* COLLECTION SECTION */
-.collection {
-    text-align: center;
-    padding: 80px 20px;
-    background: var(--white);
-}
-
-.collection h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-}
-
-.gallery {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.gallery img {
-    width: 30%;
-    border-radius: 10px;
-    transition: transform 0.5s ease-in-out;
-}
-
-.gallery img:hover {
-    transform: scale(1.1);
-    filter: brightness(1.2);
-}
-
 /* FOOTER */
 footer {
     background: var(--primary-color);
